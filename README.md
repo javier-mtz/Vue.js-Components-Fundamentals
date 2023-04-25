@@ -8,7 +8,7 @@ In this repository you will find files and folders with code examples for each o
 ## Course Content
 
 ### Chapter 1: Component Basics
-Lesson 1: Introduction to Components
+### Lesson 1: Introduction to Components
 In this lesson, we'll learn about Vue components. We'll get an introduction to what a component is, why we need components and lastly how we can create and use a component in our Vue.js app. This lesson is authored by vueschool.io.
 
 ### Lesson 2: Component's Template
