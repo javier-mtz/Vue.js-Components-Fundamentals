@@ -28,13 +28,26 @@ We know how to pass data to a child component through props. In this lesson, we'
 
 ## Chapter 2: Components In-depth
 ### Lesson 7: Component Naming Best Practices
-In this lesson, we'll learn the best practices for naming Vue.js components. Following the official Vue.js Style Guide will make our applications easier to understand for other developers just by looking at the component files. This lesson is authored by vueschool.io.
+In this lesson, we'll learn the best practices for naming Vue.js components. Following the official  [Vue.js Style Guide](https://v2.vuejs.org/v2/style-guide/?redirect=true) will make our applications easier to understand for other developers just by looking at the component files. This lesson is authored by vueschool.io.
 
 ### Lesson 8: Component Lifecycle Hooks
-In this lesson, we learn about Vue.js component lifecycle hooks and how we can use them. For more in-depth knowledge of Vue.js lifecycle hooks, we recommend taking our Understanding the Vue.js Lifecycle Hooks lesson. This lesson is authored by vueschool.io.
+In this lesson, we learn about Vue.js component lifecycle hooks and how we can use them. For more in-depth knowledge of Vue.js lifecycle hooks, we recommend taking our Understanding the [Vue.js Lifecycle Hooks](https://vueschool.io/lessons/understanding-the-vuejs-lifecycle-hooks) lesson. This lesson is authored by vueschool.io.
 
 ### Lesson 9: Component Slots
 In this lesson, we'll learn how to use Vue.js slots to pass HTML to our components. Slots are a powerful feature of Vue.js, and this lesson will teach you the basics of using slots. Remember, if you need to pass HTML to your components, use slots. If you need to pass data, use props. This lesson is authored by vueschool.io.
+
+## About the Course
+This course is designed to teach you the fundamental and important concepts of Vue.js components. After completing this course, you will be familiar with:
+
+1. The idea behind components and how Vue.js components work
+2. Component's template, and multiple ways to define your template
+3. Communication between components with props and custom events
+4. The true difference between global and local component registration
+5. The lifecycle hooks of a component
+6. Component composition with nested components and slots
+7. Component's best practices and common pitfalls
+
+To watch the course, visit [Vue.js Components Fundamentals Course](https://vueschool.io/courses/vuejs-components-fundamentals).
 
 ## Note
 Since Vue.js 3 became the default you must now specify version 2 when getting Vue from a CDN.
