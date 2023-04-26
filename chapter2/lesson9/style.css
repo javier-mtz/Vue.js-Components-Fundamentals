@@ -1,0 +1,21 @@
+.container {
+    max-width: 1920;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.done {
+    color: green;
+    text-decoration: line-through;
+}

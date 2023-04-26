@@ -36,11 +36,39 @@
         }
     },
     "chapter 2" : {
-
+        "title" : "Components In-depth",
+        "lesson 7" : {
+            "title": "Component Naming Best Practices",
+            "description": "In this lesson, we'll learn the best practices of naming our Vue.js components. By following the best practices and official [Vue.js Style Guide](https://v2.vuejs.org/v2/style-guide/?redirect=true) our applications will be easier to understand for other developers, just by taking a look at the component files.",
+            "author" : "vueschool.io"
+        },
+        "lesson 8" : {
+            "title": "Component Lifecycle Hooks",
+            "description": "In this lesson, we learn what Vue.js component lifecycle hooks are and how we can use them. If you want to learn more about Vue.js lifecycle hooks, we recommend our Understanding the [Vue.js Lifecycle Hooks](https://vueschool.io/lessons/understanding-the-vuejs-lifecycle-hooks) lesson.",
+            "author" : "vueschool.io"
+        },
+        "lesson 9" : {
+            "title": "Component Slots",
+            "description": "In this lesson, we'll learn how to pass HTML to our Vue.js components using slots. Slots are an awesome feature of Vue.js, and this lesson will teach you what you need to know to get started.",
+            "remember" : "If you need to pass HTML to your components, use slots. If you need to pass data, use props.",
+            "author" : "vueschool.io"
+        }
     },
     "chapter 3" : {
 
+    },
+    "About the course" :{
+        "description": "Components are the puzzle pieces of a Vue.js website. Learn the fundamental and important concept of Vue.js components in this course.",
+        "After this course, you'll be familiar with:": {
+            "1": "The idea behind components and how Vue.js components work",
+            "2": "Component's template, and multiple ways to define your template",
+            "3": "Communication between components with props and custom events",
+            "4": "What is the true difference between global and local component registration",
+            "5": "The lifecycle hooks of a component",
+            "6": "Component composition with nested components and slots",
+            "7": "Component's best practices and common pitfalls"
+        },
+        "Watch the course": "[Vue.js Components Fundamentals Course](https://vueschool.io/courses/vuejs-components-fundamentals)",
     }
-
     
 }
