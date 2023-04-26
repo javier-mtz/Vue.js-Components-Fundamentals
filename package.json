@@ -1,0 +1,46 @@
+{
+    "title" : "Vue.js Fundamentals",
+    "chapter 1" : {
+        "title" : "Component Basics",
+        "lessons" : {
+            "lesson 1" : {
+                "title": "Introduction to Components",
+                "description": "In this lesson, we'll learn about Vue components. We'll get an introduction to what a component is, why we need components and lastly how we can create and use a component in our Vue.js app.",
+                "author" : "vueschool.io"
+            },
+            "lesson 2" : {
+                "title": "Component's Template",
+                "description": "In this lesson, we're going to learn about a Vue component's template. Essentially, the template is where we define our HTML and general markup for our component. We also bind our component's data to the DOM in the template. In Vue.js, we can define our template in a few different ways. In this lesson, we'll move away from the inline template and use the x-template technique, which is great when you're getting started.",
+                "author" : "vueschool.io"
+            }, 
+            "lesson 3" : {
+                "title": "Reusable Components with Props",
+                "description": "In this lesson, we'll see a realistic use case for reusable components and learn about Vue.js component props. Props are custom HTML attributes that we can register on our components, which allow us to pass data to our components. You can find the starting point of the demo in this lesson in the link. We've also created a jsfiddle if you want to play around with the code.",
+                "author" : "vueschool.io"
+            },
+            "lesson 4" : {
+                "title": "Nested Components",
+                "description": "Components allow us to encapsulate functionality and easily reuse them in multiple places in our applications. It is common to have components inside other components to compose the bigger features of our apps. In this lesson, we'll learn how we can create a plan-picker component, to easily display all our plans wherever we want.",
+                "author" : "vueschool.io"
+            },
+            "lesson 5" : {
+                "title": "Global vs Local Components",
+                "description": "Vue.js allows us to register components both globally and locally. In this lesson, we'll learn the difference between the two types and how it can affect the build size and performance of your application.",
+                "author" : "vueschool.io"
+            },
+            "lesson 6" : {
+                "title": "Communication Between Components with Custom Events",
+                "description": "We know how to pass data to a child component through props. In this lesson, we'll learn how to communicate from a child to a parent component through custom events. We will use a custom event to notify the plan-picker of which plan has been selected, and make sure we have the right logic in place so the user can only select one plan at a time.",
+                "author" : "vueschool.io"
+            }
+        }
+    },
+    "chapter 2" : {
+
+    },
+    "chapter 3" : {
+
+    }
+
+    
+}
