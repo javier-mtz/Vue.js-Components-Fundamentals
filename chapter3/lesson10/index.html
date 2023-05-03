@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <title>Vue.js Components Fundamentals</title>
+</head>
+<body>
+    <div id="app" class="ui container">
+        <h1>GitHub Profiles</h1>
+        <div class="ui cards">
+            <github-user-card v-for="username in usernames" :username="username"></github-user-card>
+        </div>
+        
+    </div>
+    <script type="text/x-template" id="github-user-card-template">
+        <div class="ui card">
+            <div class="image">
+                <img :src="user.avatar_url"">
+            </div>
+            <div class="content">
+                <a :href="`https://github.com/${username}`" class="header">{{user.name}}</a>
+                <div class="meta">
+                    <div class="row space">
+                        <span class="left floated">Joined in {{yearJoined()}}</span>
+                        <span class="right floated"><i class="location arrow icon"></i> {{user.location}} </span>
+                    </div>
+                </div>
+                <div class="description">
+                    {{user.description}}
+                </div>
+            </div>
+            <div class="extra content">
+                <a :href="`https://github.com/${username}?tab=followers`">
+                    <i class="user icon"></i>
+                    {{user.followers}} Followers
+                </a>
+            </div>
+        </div>
+    </script>
+
+    <script src="https://unpkg.com/vue@2"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        Vue.component('github-user-card', {
+            template: '#github-user-card-template',
+            props: {
+                username: {
+                    type: String,
+                    required: true
+                }
+            },
+            data() {
+                return {
+                    user: {}
+                }
+            },
+            created() {
+                axios.get(`https://api.github.com/users/${this.username}`)
+                    .then(response=> {
+                        this.user = response.data;
+                    })
+            },
+            methods: {
+                yearJoined() {
+                    return new Date(this.user.created_at).getFullYear();
+                }
+            }
+        });
+
+        new Vue({
+            el: '#app',
+            data: {
+                usernames: ['javier-mtz', 'yyx990803']
+            }
+        });
+    </script>
+</body>
+</html>

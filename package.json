@@ -55,7 +55,17 @@
         }
     },
     "chapter 3" : {
-
+        "title" : "Vue.js Component Exercises",
+        "lesson 10" : {
+            "title": "#1 Build a GitHub User Profile Component",
+            "description": "This lesson is a component exercise lesson, where we're going to use everything we've learned about Vue.js components so far. The goal is to create a component that displays a person’s GitHub profile. Including the user's avatar, name, register date, bio, and followers. In the exercise, we'll be using Semantic UI, we'll specifically use the card element. We've prepared a boilerplate as a starting point for the exercise. The Github API endpoint we'll be using is: https://api.github.com/users",
+            "author" : "vueschool.io"
+        },
+        "lesson 11" : {
+            "title": "#2 Create a Notification Message Component",
+            "description": "This lesson is also a component exercise lesson, where we're going to use everything we've learned about Vue.js components so far. In this component exercise, we're going to build a fun and useful component that is a notification message. In the exercise, we'll be using (Semantic UI)[https://semantic-ui.com/], we'll specifically use the (message element)[https://semantic-ui.com/collections/message.html#positive--success]. We've prepared a (boilerplate)[https://github.com/vueschool/vuejs-components-fundamentals/blob/master/notification-message/boilerplate.html] as a starting point for the exercise. Your goal is to create a component that will be passed some content (the message) and the type of notification (info, error, success). The user should also be able to close the notification.",
+            "author" : "vueschool.io"
+        }
     },
     "About the course" :{
         "description": "Components are the puzzle pieces of a Vue.js website. Learn the fundamental and important concept of Vue.js components in this course.",
@@ -68,7 +78,7 @@
             "6": "Component composition with nested components and slots",
             "7": "Component's best practices and common pitfalls"
         },
-        "Watch the course": "[Vue.js Components Fundamentals Course](https://vueschool.io/courses/vuejs-components-fundamentals)",
+        "Watch the course": "[Vue.js Components Fundamentals Course](https://vueschool.io/courses/vuejs-components-fundamentals)"
     }
     
 }
